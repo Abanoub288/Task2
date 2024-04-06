@@ -1,0 +1,18 @@
+h2 {
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.sliad  {
+  margin-top: 40px;
+  cursor: pointer;
+}
+.sliad a {
+  text-decoration: none;
+  color: black;
+}
+.sliad h5,
+.sliad p {
+  font-size: 23px;
+}
+

@@ -1,0 +1,41 @@
+.box {
+  width: 60%;
+  margin: 50px auto auto;
+  padding: 20px;
+  background-color: #ececec;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+  border-radius: 20px;
+}
+.box .text {
+  margin-left: 20px;
+}
+.box .text h4 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.box .text p {
+  font-size: 30px;
+}
+.box .text p span {
+  font-size: 35px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.box .img {
+  padding: 30px;
+}
+.box .img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.box .prag {
+  margin: 0 20px 25px;
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.box .prag:hover {
+  padding-left: 15px;
+}
