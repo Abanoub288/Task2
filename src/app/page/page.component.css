@@ -4,8 +4,11 @@ h2 {
   font-weight: bold;
 }
 .sliad  {
-  margin-top: 40px;
   cursor: pointer;
+  background-color: #ececec;
+  width: 400px;
+  margin: 40px auto 0;
+  border-radius: 10px;
 }
 .sliad a {
   text-decoration: none;

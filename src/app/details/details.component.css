@@ -1,41 +1,49 @@
 .box {
   width: 60%;
   margin: 50px auto auto;
+}
+.box .details {
   padding: 20px;
   background-color: #ececec;
   box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
   border-radius: 20px;
 }
-.box .text {
+.box .details .text {
   margin-left: 20px;
 }
-.box .text h4 {
+.box .details .text h4 {
   font-size: 35px;
   margin-bottom: 30px;
 }
-.box .text p {
+.box .details .text p {
   font-size: 30px;
 }
-.box .text p span {
+.box .details .text p span {
   font-size: 35px;
   margin-right: 10px;
   font-weight: 600;
 }
-.box .img {
+.box .details .img {
   padding: 30px;
 }
-.box .img img {
+.box .details .img img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-.box .prag {
+.box .details .prag {
   margin: 0 20px 25px;
   font-size: 30px;
   font-weight: 700;
   cursor: pointer;
   transition: 0.3s;
 }
-.box .prag:hover {
+.box .details .prag:hover {
   padding-left: 15px;
+}
+button {
+  margin-top: 20px;
+  width: 100px;
+  font-size: 25px;
+  margin-left: 10px;
 }

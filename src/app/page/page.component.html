@@ -2,9 +2,11 @@
   <div class="row">
     <div class="col-md-4 text-center sliad" *ngFor="let user of Users">
       <a [routerLink]="['/details', user.id]">
-        <h5>{{user.first_name}}</h5>
-        <p>{{user.email}}</p>
-        <img src="{{user.avatar}}" alt="avatar">
+        <div class="content py-3">
+          <h5>{{user.first_name}}</h5>
+          <p>{{user.email}}</p>
+          <img src="{{user.avatar}}" alt="avatar">
+        </div>
       </a>
     </div>
   </div>

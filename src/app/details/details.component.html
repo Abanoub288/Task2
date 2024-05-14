@@ -1,12 +1,17 @@
 <div class="box">
-  <div class="d-flex justify-content-between align-items-center">
-    <div class="text">
-      <h4>Name: {{userDetails?.first_name}} {{userDetails?.last_name}}</h4>
-      <p><span>Email: </span>{{userDetails?.email}}</p>
+  <div class="details">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="text">
+        <h4>Name: {{userDetails?.first_name}} {{userDetails?.last_name}}</h4>
+        <p><span>Email: </span>{{userDetails?.email}}</p>
+      </div>
+      <div class="img">
+        <img [src]="userDetails?.avatar" alt="avatar">
+      </div>
     </div>
-    <div class="img">
-      <img [src]="userDetails?.avatar" alt="avatar">
-    </div>
+    <p class="prag">contact >></p>
   </div>
-  <p class="prag">contact >></p>
+  <button [routerLink]="['/page']" type="button" class="btn btn-secondary">back</button>
 </div>
+
+
